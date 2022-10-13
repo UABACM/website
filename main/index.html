@@ -50,6 +50,24 @@
       </div>
       
       
-      </span>      
+      </span>
+      
+      <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+
+        const firebaseConfig = {
+          apiKey: "AIzaSyDmPLD7f17bRZMBFh5ScL9P1HBzx267wI4",
+          authDomain: "acmatuab.firebaseapp.com",
+          projectId: "acmatuab",
+          storageBucket: "acmatuab.appspot.com",
+          messagingSenderId: "447043761663",
+          appId: "1:447043761663:web:8e7770bb11928e1aa323ca",
+          measurementId: "G-GKBTXD89NB"
+        };
+        
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
   </body>
 </html>

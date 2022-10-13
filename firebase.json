@@ -10,7 +10,12 @@
       {
         "source": "/tshirt",
         "destination": "https://forms.gle/9nAj2zpoa3FaXgee9",
-        "type": 301
+        "type": 302
+      }, 
+      {
+        "source": "/discord",
+        "destination": "https://discord.gg/3VrGNUunWa",
+        "type": 302
       }
     ],
     "headers": [
