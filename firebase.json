@@ -16,6 +16,16 @@
         "source": "/discord",
         "destination": "https://discord.gg/3VrGNUunWa",
         "type": 302
+      }, 
+      {
+        "source": "/github",
+        "destination": "https://github.com/UABACM",
+        "type": 301
+      },
+      {
+        "source": "/instagram",
+        "destination": "https://www.instagram.com/uabacm/",
+        "type": 301
       }
     ],
     "headers": [
