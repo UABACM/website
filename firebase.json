@@ -20,12 +20,12 @@
       {
         "source": "/github",
         "destination": "https://github.com/UABACM",
-        "type": 301
+        "type": 302
       },
       {
         "source": "/instagram",
         "destination": "https://www.instagram.com/uabacm/",
-        "type": 301
+        "type": 302
       }
     ],
     "headers": [

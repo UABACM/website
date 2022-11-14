@@ -11,47 +11,86 @@
     </script>
     <!-- from https://codepen.io/ZonFire99/pen/EaYmGV -->
     <title>ACM @ UAB</title>
-    <meta name="description" content="ACM @ UAB"/>
-    <meta name="author" content="ACM @ UAB"/>
+    <meta name="description" content="The Association for Computing Machinery at UAB (University of Alabama at Birmingham)"/>
+    <meta name="author" content="ACMatUAB"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#000"/>
+    <meta name="og:image" content="images/logo.png";
     <meta name="theme-color" content="#000"/>
-    <link rel="stylesheet" href="static/404.css"/>
+    <link rel="stylesheet" href="static/links.css" />
+    <!-- <link rel="stylesheet" href="static/404.css"/> -->
     <link rel="icon" href="images/favicon_io/favicon.ico"/>
+
+    <!-- for links page -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+          VANTA.BIRDS({
+              el: "#vanta",
+              mouseControls: true,
+              touchControls: true,
+              gyroControls: false,
+              minHeight: 200.00,
+              minWidth: 200.00,
+              scale: 1.00,
+              scaleMobile: 1.00,
+              backgroundColor: 0x0,
+              birdSize: 0.50,
+              wingSpan: 19.00,
+              speedLimit: 3.00,
+              separation: 44.00,
+              alignment: 63.00,
+              cohesion: 18.00
+          })
+  
+        setTimeout(() => {
+          const main = document.querySelector('main')
+          main.style.opacity = 1
+          main.style.filter = 'blur(0px)'
+        }, 1000)
+      })
+      </script>
   </head>
   <body>
-    <div class="error">
-
-      <div class="wrap">
-        <div class="404">
-          <pre><code>
-         <span class="green">&lt;!</span><span>DOCTYPE html</span><span class="green">&gt;</span>
-      <span class="orange">&lt;html&gt;</span>
-        <span class="orange">&lt;head&gt;</span>
-          <span class="orange">&lt;style&gt;</span>
-         * {
-                  <span class="green">UAB CS</span>:<span class="blue"> awesome</span>;
-      }
-           <span class="orange">&lt;/style&gt;</span>
-        <span class="orange">&lt;head&gt;</span>
-       <span class="orange">&lt;body&gt;</span> 
-                    UNDER CONSTRUCTION
-              <span class="comment">&lt;!--Check back soon for updates--&gt;
-          </span>
-       <span class="orange"></span> 
+    <div id="vanta"></div>
+    <main class="animated">
+      <header>
+        <!-- TODO change this -->
+        <img src="images/favicon_io/android-chrome-192x192.png" />
+        <h1>ACM @ UAB</h1>
+      </header>
+      <ul>
+        <li>
+          <a href="https://acmatuab.org/">
+            <img src="images/links/homepage.svg" alt="Website Logo" width="20" />
+            Official Website
+          </a>
+        </li>
+        <li>
+            <a href="https://acmatuab.org/github">
+              <img src="images/links/github.svg" alt="GitHub Logo" width="20" />
+              GitHub
+            </a>
+        </li>
+        <li>
+          <a href="https://acmatuab.org/discord">
+            <img src="images/links/discord.svg" alt="Discord Logo" width="20" />
+            Discord
+          </a>
+        </li>
+        <li>
+          <a href="https://acmatuab.org/instagram">
+            <img src="images/links/instagram.svg" alt="Instagram Logo" width="20" />
+            Instagram
+          </a>
+        </li>
+      </ul>
+      <div class="bottom">
+        <p>New Website Coming Soon!</p>
+        <p>Inspired by <a href="https://www.craftz.dog/">Craftzdog</a></p>
       </div>
-      <span class="info">
-      <span class="orange">&nbsp;&lt;/body&gt;</span>
-      
-      <br/>
-            <span class="orange">&lt;/html&gt;</span>
-          </code></pre>
-        </div>
-      </div>
-      
-      
-      </span>
-      
+    </main>
       <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
