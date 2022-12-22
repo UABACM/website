@@ -1,3 +1,5 @@
+/* This place is a mess, clean up and refactoring will occur in the future when V1 of the site is released. Alot of this stuff is testing. 
+Author: Michael Gathara (mikegtr@uab.edu | michael@michaelgathara.com) */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&display=swap');
 :root {
     --ACMBlue: #153a5c;
@@ -224,14 +226,109 @@ nav[data-state=open] ul li:nth-child(4){
     text-align: center;
     margin-top: 100px;
 }
+.projectPage .projectShowcase {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: stretch;
+    vertical-align: top;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
 .project{
     display: inline-block;
     padding: 16px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin-bottom: 7%;
     border-radius: 16px;
     width: 70%;
     text-align: left;
+}
+.projectPage .project {
+    margin: 2%;
+    border-radius: 16px;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 0.5%;
+    padding-bottom: 0.8%;
+    flex: 1;
+    position: relative;
+    -webkit-flex: 1;
+    min-width: 20%;
+    box-shadow: 1px 5px 13px -7px rgba(255,255,255,0.74);
+    -webkit-box-shadow: 1px 5px 13px -7px rgba(255,255,255,0.74);
+    -moz-box-shadow: 1px 5px 13px -7px rgba(255,255,255,0.74);
+    /* box-shadow: 9px 7px 40px -6px rgb(51, 50, 50);
+    -webkit-box-shadow: 9px 7px 40px -6px rgb(51, 50, 50); */
+}
+/* Under here is a portal of hell */
+.portfolio {
+    background-color: blue;
+}
+.mainSite,.spinny {
+    background-color: #456990;
+    color: white;
+}
+    .mainSite a {
+        color: black;
+    }
+.twitter{  
+    background-color: #141d26;
+    color: white;
+}
+    .twitter h2 {
+        color: whitesmoke !important;
+    }
+.pythonCeaser {
+    background-color: #9F4A54;
+}
+    .pythonCeaser h2 {
+        color: whitesmoke !important;
+    }
+.javaCeaser, .aboutMe {
+    background-color: #0B3142;
+}
+.cleanHoover {
+    background-color: #54ae87;
+    color: black;
+}
+    .cleanHoover h2 {
+        color: black !important;
+    }
+.art {
+    background-color: #0F5257;
+}
+.mdot {
+    background-color: wheat;
+    color: black;
+}
+    .mdot h2,hr {
+        color: rgb(73, 73, 69) !important;
+    }
+.trident, .aboutSite {  
+    background-color: white;
+    color: black;
+}
+    .trident h2 {
+        color: #9F4A54 !important;
+    }
+    .aboutSite h2 {
+        color: #9F4A54 !important;
+    }
+    .aboutSite a {
+        color: rebeccapurple !important;
+    }
+.aboutPage .introSentence {
+    color: black;
+}
+.aboutPage .y {
+    color: black;
 }
 .link, .sourceTitle {
     color: var(--nameRed);
