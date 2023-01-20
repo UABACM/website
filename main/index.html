@@ -30,7 +30,7 @@
               el: "#vanta",
               mouseControls: true,
               touchControls: true,
-              gyroControls: false,
+              gyroControls: true,
               minHeight: 200.00,
               minWidth: 200.00,
               scale: 1.00,
@@ -41,7 +41,7 @@
               speedLimit: 3.00,
               separation: 44.00,
               alignment: 63.00,
-              cohesion: 18.00
+              cohesion: 19.00
           })
   
         setTimeout(() => {
@@ -50,7 +50,7 @@
           main.style.filter = 'blur(0px)'
         }, 1000)
       })
-      </script>
+    </script>
   </head>
   <body>
     <div id="vanta"></div>
@@ -65,6 +65,12 @@
           <a href="https://acmatuab.org/workshops">
             <img src="images/links/homepage.svg" alt="Website Logo" width="20" />
             Workshops
+          </a>
+        </li>
+        <li>
+          <a href="https://acmatuab.org/quizlets">
+            <img src="images/links/quizlet.svg" alt="Quizlet Logo" width="20" />
+            UAB CS Quizlets
           </a>
         </li>
         <li>
@@ -91,6 +97,6 @@
         <p>Inspired by <a href="https://www.craftz.dog/">Craftzdog</a></p>
       </div>
     </main>
-      <script src="static/firebase.js"></script>
+    <script src="static/firebase.js"></script>
   </body>
 </html>
