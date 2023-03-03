@@ -31,6 +31,10 @@
         "source": "/exec/interest",
         "destination": "https://forms.gle/1QvcS6vxb2QpFb4W9",
         "type": 302
+      }, {
+        "source": "/studynight",
+        "destination": "https://forms.gle/5xpUUnRcX1kga8DH8",
+        "type": 302
       }
     ],
     "headers": [
