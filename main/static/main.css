@@ -5,12 +5,14 @@ Author: Michael Gathara (mikegtr@uab.edu | michael@michaelgathara.com) */
     --ACMBlue: #153a5c;
     --peach: #feaea3;
     --nameRed: #ff6768;
+    --lightblue: #4B698E;
 }
 html {
     overflow-x: hidden;
 }
 body {
     background: black;
+    /* background-color: #4B698E; */
     overflow-x: hidden;
     font-family: 'Roboto Slab', serif;
 }
