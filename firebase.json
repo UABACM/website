@@ -28,12 +28,12 @@
         "destination": "https://github.com/UABACM/first-contribution-uab",
         "type": 302
       }, {
-        "source": "/exec/apply",
-        "destination": "https://forms.gle/RUFu5A4diTC1e7Qg6",
-        "type": 302
-      }, {
         "source": "/studynight",
         "destination": "https://forms.gle/5xpUUnRcX1kga8DH8",
+        "type": 302
+      }, {
+        "source": "/chat",
+        "destination": "https://chat.openai.com/g/g-gKvKQrVrw-gpt-for-uab",
         "type": 302
       }
     ],
