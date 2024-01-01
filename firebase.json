@@ -35,6 +35,11 @@
         "source": "/chat",
         "destination": "https://chat.openai.com/g/g-gKvKQrVrw-gpt-for-uab",
         "type": 302
+      },
+      {
+        "source": "/shipt",
+        "destination": "https://forms.gle/4y5ZjGG8ALkzaHza7",
+        "type": 302
       }
     ],
     "headers": [
