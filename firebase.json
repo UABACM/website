@@ -8,6 +8,16 @@
     ],
     "redirects": [
       {
+        "source": "/open-spots",
+        "destination": "https://github.com/jaypyles/open-spots",
+        "type": 301
+      },
+      {
+        "source": "/uab-spots",
+        "destination": "https://open-spots.vercel.app/",
+        "type": 301
+      },
+      {
         "source": "/tshirt",
         "destination": "https://forms.gle/9nAj2zpoa3FaXgee9",
         "type": 302
