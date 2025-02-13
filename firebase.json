@@ -36,6 +36,10 @@
         "source": "/chat",
         "destination": "https://chat.openai.com/g/g-gKvKQrVrw-gpt-for-uab",
         "type": 302
+      }, {
+        "source": "/atlas",
+        "destination": "https://uabacm.org/resources",
+        "type": 301
       }
     ],
     "headers": [

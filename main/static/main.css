@@ -252,6 +252,10 @@ nav[data-state=open] ul li:nth-child(4){
     width: 70%;
     text-align: left;
 }
+.article strong {
+    font-weight: 550;
+    color: var(--peach)
+}
 .projectPage .project {
     margin: 2%;
     border-radius: 16px;
