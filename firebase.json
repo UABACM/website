@@ -41,7 +41,7 @@
         "destination": "https://uabacm.org/resources",
         "type": 301
       }, {
-        "source": "/dinner_feedback",
+        "source": "/dinnerfeedback",
         "destination": "https://forms.gle/NEwjW4mEgLHCvzFfA",
         "type": 302
       }
