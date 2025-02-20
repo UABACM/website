@@ -44,6 +44,10 @@
         "source": "/dinnerfeedback",
         "destination": "https://forms.gle/NEwjW4mEgLHCvzFfA",
         "type": 302
+      }, {
+        "source": "/survey",
+        "destination": "https://forms.gle/GbKEwZpqjkVxSokVA",
+        "type": 302
       }
     ],
     "headers": [
