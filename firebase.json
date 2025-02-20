@@ -40,6 +40,10 @@
         "source": "/atlas",
         "destination": "https://uabacm.org/resources",
         "type": 301
+      }, {
+        "source": "/dinner_feedback",
+        "destination": "https://forms.gle/NEwjW4mEgLHCvzFfA",
+        "type": 302
       }
     ],
     "headers": [
