@@ -11,7 +11,7 @@
         "source": "/open-spots",
         "destination": "https://github.com/jaypyles/open-spots",
         "type": 301
-      },
+      },      
       {
         "source": "/uab-spots",
         "destination": "https://open-spots.vercel.app/",
@@ -40,6 +40,10 @@
         "source": "/atlas",
         "destination": "https://uabacm.org/resources",
         "type": 301
+      }, {
+        "source": "/exec/apply",
+        "destination": "https://docs.google.com/forms/d/e/1FAIpQLSe8CaKkqTVOW6uJ3zBNzx_-a4e2cuZQBpbEd34xRtzTiaJyPA/viewform?usp=dialog",
+        "type": 302
       }, {
         "source": "/dinnerfeedback",
         "destination": "https://forms.gle/NEwjW4mEgLHCvzFfA",
